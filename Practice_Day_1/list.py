@@ -24,10 +24,16 @@ print("Second Largest:", unique_lst[-2])
 
 #4 Create a nested list and calculate the sum of each inner list
 
+<<<<<<< HEAD
 lst = [[1, 2, 3], [4, 5, 6], [7, 8,7]]
 for inner_list in lst:
     total = sum(inner_list)
     print("sum:", total)
+=======
+list = [[1, 2, 3], [4, 5, 6], [7, 8,7]]
+for inner_list in list:
+    print("Sum:", sum(inner_list))
+>>>>>>> 03dc96e696b4dd49321817cac8ad650c33a8becb
 
 #5 Demonstrate shallow copy and deep copy of a list with mutable elements.
 
