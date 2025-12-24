@@ -1,4 +1,5 @@
 #1 write a program to store marks of 5 students in a dictionary. Each student should have 3 subjects.
+
 students = {
     "Aman": [85, 90, 88],
     "Riya": [92, 95, 91],
@@ -15,7 +16,8 @@ def calculate_average(name):
 
    #print(calculate_average("Aman"))
 
-#3
+#3 Based on the average, assign grades using control statement:
+
 def assign_grade(avg):
     if avg >= 90:
         return "A"
@@ -25,19 +27,21 @@ def assign_grade(avg):
         return "C"
     else:
         return "Fail"
-#4
-print("Student Result:\n")
 
+#4 print the student name, average marks, and grade
+
+print("Student Result:\n")
 averages = {}
 
 for name in students:
-    avg = calculate_average(name)   # passing NAME, not marks
+    avg = calculate_average(name)   # passing name
     grade = assign_grade(avg)
     averages[name] = avg
 
     print(f"Name: {name}, Average: {avg:.2f}, Grade: {grade}")
 
-#5
+#5 Modify the program to display the top scorer's name and average marks.
+
 top_scorer = max(averages, key=averages.get)
 
 print("\nTop Scorer:")
