@@ -1,4 +1,4 @@
-#1
+#1 Write a program to count the number of vowels,consonants, digits, and special character in a given string.
 s = "Hello123@#"
 
 vowels = consonants = digits = special = 0
@@ -18,7 +18,8 @@ print("Consonants:", consonants)
 print("Digits:", digits)
 print("Special Characters:", special)
 
-#2
+#2 Given a string,reverse each word individually without changing the word order.
+
 s = "Hello World Python"
 words = s.split()
 result = []
@@ -26,16 +27,18 @@ result = []
 for word in words:
     result.append(word[::-1])
 
-print(" ".join(result))
+print(" After Reverse: ".join(result))
 
-#3
+#3 check whether a given string is a palindrome using indexing and slicing
+
 s = "malyalam"
 if s == s[::-1]:
     print("Palindrome")
 else:
     print("Not Palindrome")
 
-#4
+#4 Write a program to find the frequency of each character in a string
+
 s = "python"
 
 freq = {}
@@ -48,11 +51,12 @@ for ch in s:
 
 print(freq)
 
-#5
+#5 Demonstrate string immutability by attempting to modify a character and handling the error.
+
 s = "Python"
 s[0] = "J"
 
-# try except
+   # try except
 s = "Python"
 
 try:
