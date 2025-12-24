@@ -24,7 +24,7 @@ print("Second Largest:", unique_lst[-2])
 
 #4 Create a nested list and calculate the sum of each inner list
 
-list = [[1, 2, 3], [4, 5, 6], [7, 8],7]
+list = [[1, 2, 3], [4, 5, 6], [7, 8,7]]
 for inner_list in list:
     print("Sum:", sum(inner_list))
 
