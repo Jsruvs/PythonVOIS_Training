@@ -1,4 +1,4 @@
-# utils.py
+
 
 def grade(avg):
     if avg >= 80:
