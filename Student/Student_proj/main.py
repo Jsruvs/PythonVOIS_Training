@@ -1,11 +1,11 @@
-# ===============================
+
 # MAIN PROGRAM : Student Management System
-# ===============================
+
 
 # 1. Importing user-defined modules
-import student                  # normal import
-from marks import add_marks, calculate_average   # from ... import
-import report as rpt             # module alias
+import student                   
+from marks import add_marks, calculate_average   
+import report as rpt            
 
 # 2. Importing reusable module
 from utils import grade
@@ -15,11 +15,11 @@ import datetime
 import random
 import math
 
-# ===============================
+ 
 # MAIN EXECUTION STARTS
-# ===============================
 
-print("===== STUDENT MANAGEMENT SYSTEM =====")
+
+print(" STUDENT MANAGEMENT SYSTEM ")
 
 # Display current date using datetime module
 print("Date:", datetime.date.today())
@@ -49,8 +49,9 @@ final_report = report_obj.generate(
 )
 
 # Display output
+
 print("\n----- STUDENT REPORT -----")
 print(final_report)
 print("Grade:", student_grade)
 
-print("\n===== PROGRAM END =====")
+
